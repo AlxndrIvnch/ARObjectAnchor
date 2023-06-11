@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7073631929B4BDF4007F1BB6 /* BarcodeReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073631829B4BDF4007F1BB6 /* BarcodeReaderVC.swift */; };
+		7073631D29B4E9E9007F1BB6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7073631C29B4E9E9007F1BB6 /* InfoView.swift */; };
+		70F2BA4A29A6EC64004C2753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2BA4929A6EC64004C2753 /* AppDelegate.swift */; };
+		70F2BA4C29A6EC64004C2753 /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2BA4B29A6EC64004C2753 /* ARVC.swift */; };
+		70F2BA4E29A6EC64004C2753 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 70F2BA4D29A6EC64004C2753 /* Experience.rcproject */; };
+		70F2BA5129A6EC64004C2753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F2BA4F29A6EC64004C2753 /* Main.storyboard */; };
+		70F2BA5329A6EC66004C2753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F2BA5229A6EC66004C2753 /* Assets.xcassets */; };
+		70F2BA5629A6EC66004C2753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F2BA5429A6EC66004C2753 /* LaunchScreen.storyboard */; };
+		70F494EB29A7797A00504D67 /* QRCodeReaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F494EA29A7797A00504D67 /* QRCodeReaderVC.swift */; };
+		94E44A8D1F46B17F49B2EFC9 /* Pods_ARtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968D35BBB32F1BB51F8CE4BF /* Pods_ARtest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63C5E595753EEA8D3E557336 /* Pods-ARtest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARtest.debug.xcconfig"; path = "Target Support Files/Pods-ARtest/Pods-ARtest.debug.xcconfig"; sourceTree = "<group>"; };
+		7073631829B4BDF4007F1BB6 /* BarcodeReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeReaderVC.swift; sourceTree = "<group>"; };
+		7073631C29B4E9E9007F1BB6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		70F2BA4629A6EC64004C2753 /* ARtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F2BA4929A6EC64004C2753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70F2BA4B29A6EC64004C2753 /* ARVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVC.swift; sourceTree = "<group>"; };
+		70F2BA4D29A6EC64004C2753 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		70F2BA5029A6EC64004C2753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70F2BA5229A6EC66004C2753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F2BA5529A6EC66004C2753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70F494EA29A7797A00504D67 /* QRCodeReaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderVC.swift; sourceTree = "<group>"; };
+		7F3D07C0BAA62CB7EF4AE009 /* Pods-ARtest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARtest.release.xcconfig"; path = "Target Support Files/Pods-ARtest/Pods-ARtest.release.xcconfig"; sourceTree = "<group>"; };
+		968D35BBB32F1BB51F8CE4BF /* Pods_ARtest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARtest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F2BA4329A6EC64004C2753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E44A8D1F46B17F49B2EFC9 /* Pods_ARtest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70F2BA3D29A6EC64004C2753 = {
+			isa = PBXGroup;
+			children = (
+				70F2BA4829A6EC64004C2753 /* ARtest */,
+				70F2BA4729A6EC64004C2753 /* Products */,
+				C23A9606F31241C2F1265AA5 /* Pods */,
+				883133E986454D518D242BB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70F2BA4729A6EC64004C2753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F2BA4629A6EC64004C2753 /* ARtest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F2BA4829A6EC64004C2753 /* ARtest */ = {
+			isa = PBXGroup;
+			children = (
+				70F2BA4929A6EC64004C2753 /* AppDelegate.swift */,
+				70F494EA29A7797A00504D67 /* QRCodeReaderVC.swift */,
+				7073631829B4BDF4007F1BB6 /* BarcodeReaderVC.swift */,
+				70F2BA4B29A6EC64004C2753 /* ARVC.swift */,
+				70F2BA4D29A6EC64004C2753 /* Experience.rcproject */,
+				70F2BA4F29A6EC64004C2753 /* Main.storyboard */,
+				70F2BA5229A6EC66004C2753 /* Assets.xcassets */,
+				70F2BA5429A6EC66004C2753 /* LaunchScreen.storyboard */,
+				7073631C29B4E9E9007F1BB6 /* InfoView.swift */,
+			);
+			path = ARtest;
+			sourceTree = "<group>";
+		};
+		883133E986454D518D242BB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968D35BBB32F1BB51F8CE4BF /* Pods_ARtest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C23A9606F31241C2F1265AA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C5E595753EEA8D3E557336 /* Pods-ARtest.debug.xcconfig */,
+				7F3D07C0BAA62CB7EF4AE009 /* Pods-ARtest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F2BA4529A6EC64004C2753 /* ARtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F2BA5929A6EC66004C2753 /* Build configuration list for PBXNativeTarget "ARtest" */;
+			buildPhases = (
+				24E396F2D879ED9D72E0C6B4 /* [CP] Check Pods Manifest.lock */,
+				70F2BA4229A6EC64004C2753 /* Sources */,
+				70F2BA4329A6EC64004C2753 /* Frameworks */,
+				70F2BA4429A6EC64004C2753 /* Resources */,
+				25E815B6B5B215C343486D9F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARtest;
+			productName = ARtest;
+			productReference = 70F2BA4629A6EC64004C2753 /* ARtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F2BA3E29A6EC64004C2753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					70F2BA4529A6EC64004C2753 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 70F2BA4129A6EC64004C2753 /* Build configuration list for PBXProject "ARtest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70F2BA3D29A6EC64004C2753;
+			productRefGroup = 70F2BA4729A6EC64004C2753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F2BA4529A6EC64004C2753 /* ARtest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F2BA4429A6EC64004C2753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F2BA5629A6EC66004C2753 /* LaunchScreen.storyboard in Resources */,
+				70F2BA5329A6EC66004C2753 /* Assets.xcassets in Resources */,
+				70F2BA5129A6EC64004C2753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24E396F2D879ED9D72E0C6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARtest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25E815B6B5B215C343486D9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARtest/Pods-ARtest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARtest/Pods-ARtest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARtest/Pods-ARtest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F2BA4229A6EC64004C2753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7073631929B4BDF4007F1BB6 /* BarcodeReaderVC.swift in Sources */,
+				70F2BA4C29A6EC64004C2753 /* ARVC.swift in Sources */,
+				70F494EB29A7797A00504D67 /* QRCodeReaderVC.swift in Sources */,
+				70F2BA4A29A6EC64004C2753 /* AppDelegate.swift in Sources */,
+				7073631D29B4E9E9007F1BB6 /* InfoView.swift in Sources */,
+				70F2BA4E29A6EC64004C2753 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70F2BA4F29A6EC64004C2753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F2BA5029A6EC64004C2753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70F2BA5429A6EC66004C2753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F2BA5529A6EC66004C2753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70F2BA5729A6EC66004C2753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70F2BA5829A6EC66004C2753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70F2BA5A29A6EC66004C2753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C5E595753EEA8D3E557336 /* Pods-ARtest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL9243GFXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oleksandr-Ivanchenko.ARtest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70F2BA5B29A6EC66004C2753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3D07C0BAA62CB7EF4AE009 /* Pods-ARtest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CL9243GFXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oleksandr-Ivanchenko.ARtest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F2BA4129A6EC64004C2753 /* Build configuration list for PBXProject "ARtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F2BA5729A6EC66004C2753 /* Debug */,
+				70F2BA5829A6EC66004C2753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F2BA5929A6EC66004C2753 /* Build configuration list for PBXNativeTarget "ARtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F2BA5A29A6EC66004C2753 /* Debug */,
+				70F2BA5B29A6EC66004C2753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70F2BA3E29A6EC64004C2753 /* Project object */;
+}

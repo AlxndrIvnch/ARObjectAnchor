@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B2I-hX-Va4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Barcode ReaderVC-->
+        <scene sceneID="L8o-cS-jxn">
+            <objects>
+                <viewController id="B2I-hX-Va4" customClass="BarcodeReaderVC" customModule="ARtest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kaO-zy-PSw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8K6-Iu-vUb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aV4-pB-Fm1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-762" y="122"/>
+        </scene>
+        <!--ARVC-->
+        <scene sceneID="b3j-SN-Nxg">
+            <objects>
+                <viewController storyboardIdentifier="ARVC" id="JH1-cB-9UW" customClass="ARVC" customModule="ARtest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n24-iT-BAb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CQg-Tc-N4t">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muu-X7-KL1">
+                                <rect key="frame" x="360" y="56" width="46" height="34"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="xmark" catalog="system">
+                                    <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="closeButtonAction:" destination="JH1-cB-9UW" eventType="touchUpInside" id="cGn-J8-xqY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OTS-2v-fOw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CQg-Tc-N4t" firstAttribute="top" secondItem="n24-iT-BAb" secondAttribute="top" id="9kT-G4-in5"/>
+                            <constraint firstItem="muu-X7-KL1" firstAttribute="top" secondItem="OTS-2v-fOw" secondAttribute="top" constant="8" id="Hcc-7h-bow"/>
+                            <constraint firstAttribute="bottom" secondItem="CQg-Tc-N4t" secondAttribute="bottom" id="Hct-m0-sef"/>
+                            <constraint firstItem="muu-X7-KL1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OTS-2v-fOw" secondAttribute="leading" constant="8" id="QS7-uZ-8xk"/>
+                            <constraint firstAttribute="trailing" secondItem="CQg-Tc-N4t" secondAttribute="trailing" id="VHW-S6-8vE"/>
+                            <constraint firstItem="CQg-Tc-N4t" firstAttribute="leading" secondItem="OTS-2v-fOw" secondAttribute="leading" id="uiy-YO-ZIa"/>
+                            <constraint firstItem="OTS-2v-fOw" firstAttribute="trailing" secondItem="muu-X7-KL1" secondAttribute="trailing" constant="8" id="ywY-RG-G5c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="CQg-Tc-N4t" id="VDi-6z-IDy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fKu-5I-yBv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="187"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
